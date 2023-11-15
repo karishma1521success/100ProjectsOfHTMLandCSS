@@ -52,3 +52,41 @@
     -webkit-text-stroke: 2px white;
     color: transparent;  
 }
+
+@media (min-aspect-ratio: 16/9) {
+    .back-video {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-aspect-ratio: 16/9) {
+    .back-video {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+@media screen and (max-width: 900px) {
+    #main > div#journey > h1{
+        font-size: 113px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    #main > div#journey > h1{
+        font-size: 90px;
+    }
+    #main > #explore-div > a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    
+    #main > div#journey > h1{
+        font-size: 20px;
+    }
+}
